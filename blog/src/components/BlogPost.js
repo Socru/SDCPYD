@@ -5,7 +5,11 @@ const BlogPost = ({ title, content }) => {
   return (
     <article>
       <h2>{title}</h2>
-      <p>{content}</p>
+      <div>
+        {content.split('\n').map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
+        ))}
+      </div>
     </article>
   );
 };
