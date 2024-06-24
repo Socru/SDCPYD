@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import BlogPost from './components/BlogPost';
 
+const windowsCodeUrl = 'https://github.com/Socru/SPD2024/tree/main/BMP24bitsW'; // Reemplaza con la URL correcta
+
 const App = () => {
   return (
     <div>
@@ -32,8 +34,9 @@ const App = () => {
           - Ejecución de las pruebas y recolección de datos.\n
           - Análisis de los resultados y elaboración de conclusiones.\n\n
           Este proyecto ofrece una visión detallada del rendimiento del cómputo paralelo en el procesamiento de imágenes, proporcionando información valiosa para futuras optimizaciones y aplicaciones en este campo.`}
-              />
-              <section className="section">
+        />
+        
+        <section className="section">
           <h3>Gráficas de Ejecución En Windows Sin OMP</h3>
           <img src="ruta/" alt="Gráfica 1" />
           <img src="ruta/" alt="Gráfica 2" />
@@ -63,14 +66,18 @@ const App = () => {
               {`
               // Aquí va tu código fuente
               `}
-            </code>
+                      </code>
+                      <h3>Código en Windows con OpenMP</h3>
+          <a href={windowsCodeUrl} target="_blank" rel="noopener noreferrer">Ver Código en Windows (BMP24bitsW)</a>
           </pre>
-              </section>
-              
-              <BlogPost 
+        </section>
+        
+        <BlogPost 
           title="Conclusiones"
-          content={`agregarlas`}
-              />
+          content={`Agregar conclusiones`}
+        />
+        
+        
       </main>
       <Footer />
     </div>
