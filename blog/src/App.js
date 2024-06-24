@@ -35,8 +35,1950 @@ const App = () => {
               />
               <section className="section">
           
-          <table class="c16"><tbody><tr class="c8"><td class="c0 c10" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c9" colspan="3" rowspan="1"><p class="c2"><span class="c4">Con omp</span></p></td><td class="c12" colspan="3" rowspan="1"><p class="c2"><span class="c4">Sin omp</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">2 hilos</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">&nbsp;4 hilos</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">8 hilos</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">2 hilos</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">4 hilos</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">8 hilos</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">85.5491</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.5188</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.0259</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.0923</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.5963</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">85.6872</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.2781</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.2945</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">167.5873</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.1965</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.2645</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.5114</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.4849</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.9397</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">144.4762</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.6914</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.1613</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.7875</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0482</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.9231</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">120.9561</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.3849</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.8985</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.496</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.5821</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.8726</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">131.5949</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.4442</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.9627</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.4075</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.2606</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.7679</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.9867</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.0558</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0607</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.0561</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.2932</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0311</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.6113</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.5098</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.6365</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.1543</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0322</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.6361</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.08</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.6327</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.913</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0522</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0174</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.8368</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.8819</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.1873</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.6307</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.5642</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.3918</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.3837</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">95.9458</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.9953</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.9858</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.6835</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.8779</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.5842</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.8086</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.0554</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.8417</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.3798</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.2082</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">85.2557</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.985</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.8028</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.19</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.1245</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.311</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.6836</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.1628</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.2875</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0908</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.1974</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.6706</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.6006</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.2728</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.6343</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.9226</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.6263</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.3408</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.1415</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.7088</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.9646</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0464</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.6878</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.6927</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.7079</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.8579</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.4764</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.0293</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.6293</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.2202</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.4655</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.4376</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.4576</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.5456</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">95.5748</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.7403</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.1453</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.8747</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.6263</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.3772</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.7831</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.5143</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.8109</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.1333</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.3513</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.5931</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.3164</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.0894</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.3725</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.9389</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.1846</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.1521</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.4738</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.0127</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.9755</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.5089</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.4071</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.0224</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.0697</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.0606</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.7346</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.9751</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.3222</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.1602</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.2132</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.3536</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.1294</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.506</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.1514</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.9821</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.0365</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.9632</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.0853</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.9471</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">85.676</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.006</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.0877</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.7027</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.4998</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.8777</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.1689</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.7786</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.0409</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.3295</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.3413</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">131.8053</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.6413</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0938</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.9338</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.9636</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.2245</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.9921</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.8823</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.6709</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.7822</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.3032</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.27</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.043</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">86.0728</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.6427</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.2019</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.1655</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.0898</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.9251</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.0296</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.6005</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.6414</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.4549</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.9604</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.0298</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.6559</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.1833</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.6309</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.2346</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.4018</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.7566</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.1038</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.2035</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.0417</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.5513</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.2755</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.6647</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.2966</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.3133</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.5338</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.9834</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.8401</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.2795</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.2312</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.8503</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.9474</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.7655</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.0067</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.5644</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.558</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.9214</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.1258</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0021</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.0742</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.4747</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.1166</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.8931</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.0578</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.111</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.8781</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.5588</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.6674</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.5913</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.3938</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.8375</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.7628</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.0049</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.7375</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.1118</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.7291</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.6979</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.8436</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.2327</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.5056</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.568</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.8882</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.0033</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.8205</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.3014</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.5967</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.6833</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.5763</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.945</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.3903</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.0061</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.2991</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.9605</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.8078</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.4657</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.0732</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.4184</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.6953</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.0663</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.1132</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.7942</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.7938</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.3567</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.0284</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.5971</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.4727</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.9992</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.8878</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.963</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.2233</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.1181</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.2775</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.0168</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.9775</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">95.1</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.6172</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.0241</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.0424</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.3</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.6665</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.7244</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">87.964</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.1485</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.2924</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.1825</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.905</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.3947</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.5595</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.6015</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.3048</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.4371</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.2461</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.6964</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.1655</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.7962</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.2902</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.3155</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.8099</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.6637</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.8986</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.4836</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">95.0612</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.0498</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">93.0484</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.3371</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.7369</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.57</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.8907</span></p></td></tr><tr class="c8"><td class="c0" colspan="1" rowspan="1"><p class="c1"><span class="c4"></span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.7721</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.6862</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.9918</span></p></td><td class="c6" colspan="1" rowspan="1"><p class="c2"><span class="c4">89.3076</span></p></td><td class="c5" colspan="1" rowspan="1"><p class="c2"><span class="c4">94.3835</span></p></td><td class="c3" colspan="1" rowspan="1"><p class="c2"><span class="c4">92.0747</span></p></td></tr><tr class="c8"><td class="c0 c17" colspan="1" rowspan="1"><p class="c14"><span class="c4">Promedio</span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.84754</span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c2"><span class="c4">90.613412</span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c2"><span class="c4">96.468532</span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c2"><span class="c4">88.846946</span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.198494</span></p></td><td class="c7" colspan="1" rowspan="1"><p class="c2"><span class="c4">91.615056</span></p></td></tr></tbody></table>
-          <h3>Gráficas de Ejecución En Windows Sin OMP</h3>
+              <table class="c216">
+            <tr class="c28">
+                <td class="c20 c210" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c29" colspan="3" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">Con omp</span>
+                    </p>
+                </td>
+                <td class="c212" colspan="3" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">Sin omp</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">2 hilos</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">&nbsp;4 hilos</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">8 hilos</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">2 hilos</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">4 hilos</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">8 hilos</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">85.5491</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.5188</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.0259</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.0923</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.5963</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">85.6872</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.2781</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.2945</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">167.5873</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.1965</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.2645</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.5114</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.4849</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.9397</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">144.4762</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.6914</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.1613</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.7875</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0482</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.9231</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">120.9561</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.3849</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.8985</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.496</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.5821</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.8726</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">131.5949</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.4442</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.9627</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.4075</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.2606</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.7679</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.9867</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.0558</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0607</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.0561</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.2932</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0311</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.6113</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.5098</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.6365</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.1543</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0322</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.6361</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.08</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.6327</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.913</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0522</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0174</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.8368</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.8819</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.1873</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.6307</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.5642</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.3918</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.3837</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">95.9458</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.9953</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.9858</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.6835</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.8779</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.5842</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.8086</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.0554</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.8417</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.3798</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.2082</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">85.2557</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.985</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.8028</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.19</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.1245</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.311</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.6836</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.1628</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.2875</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0908</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.1974</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.6706</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.6006</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.2728</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.6343</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.9226</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.6263</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.3408</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.1415</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.7088</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.9646</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0464</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.6878</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.6927</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.7079</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.8579</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.4764</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.0293</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.6293</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.2202</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.4655</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.4376</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.4576</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.5456</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">95.5748</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.7403</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.1453</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.8747</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.6263</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.3772</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.7831</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.5143</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.8109</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.1333</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.3513</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.5931</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.3164</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.0894</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.3725</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.9389</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.1846</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.1521</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.4738</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.0127</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.9755</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.5089</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.4071</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.0224</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.0697</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.0606</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.7346</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.9751</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.3222</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.1602</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.2132</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.3536</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.1294</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.506</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.1514</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.9821</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.0365</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.9632</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.0853</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.9471</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">85.676</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.006</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.0877</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.7027</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.4998</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.8777</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.1689</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.7786</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.0409</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.3295</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.3413</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">131.8053</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.6413</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0938</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.9338</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.9636</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.2245</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.9921</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.8823</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.6709</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.7822</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.3032</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.27</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.043</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">86.0728</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.6427</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.2019</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.1655</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.0898</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.9251</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.0296</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.6005</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.6414</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.4549</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.9604</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.0298</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.6559</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.1833</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.6309</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.2346</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.4018</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.7566</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.1038</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.2035</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.0417</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.5513</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.2755</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.6647</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.2966</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.3133</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.5338</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.9834</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.8401</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.2795</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.2312</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.8503</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.9474</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.7655</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.0067</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.5644</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.558</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.9214</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.1258</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0021</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.0742</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.4747</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.1166</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.8931</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.0578</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.111</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.8781</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.5588</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.6674</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.5913</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.3938</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.8375</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.7628</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.0049</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.7375</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.1118</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.7291</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.6979</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.8436</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.2327</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.5056</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.568</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.8882</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.0033</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.8205</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.3014</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.5967</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.6833</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.5763</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.945</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.3903</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.0061</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.2991</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.9605</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.8078</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.4657</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.0732</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.4184</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.6953</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.0663</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.1132</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.7942</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.7938</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.3567</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.0284</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.5971</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.4727</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.9992</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.8878</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.963</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.2233</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.1181</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.2775</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.0168</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.9775</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">95.1</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.6172</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.0241</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.0424</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.3</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.6665</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.7244</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">87.964</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.1485</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.2924</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c0" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.1825</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.905</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.3947</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.5595</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.6015</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.3048</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.4371</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.2461</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.6964</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.1655</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.7962</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.2902</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.3155</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.8099</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.6637</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.8986</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.4836</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">95.0612</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.0498</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">93.0484</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.3371</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.7369</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.57</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.8907</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20" colspan="1" rowspan="1">
+                    <p class="c21">
+                        <span class="c24"></span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.7721</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.6862</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.9918</span>
+                    </p>
+                </td>
+                <td class="c26" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">89.3076</span>
+                    </p>
+                </td>
+                <td class="c25" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">94.3835</span>
+                    </p>
+                </td>
+                <td class="c23" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">92.0747</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c28">
+                <td class="c20 c217" colspan="1" rowspan="1">
+                    <p class="c214">
+                        <span class="c24">Promedio</span>
+                    </p>
+                </td>
+                <td class="c27" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.84754</span>
+                    </p>
+                </td>
+                <td class="c27" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">90.613412</span>
+                    </p>
+                </td>
+                <td class="c27" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">96.468532</span>
+                    </p>
+                </td>
+                <td class="c27" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">88.846946</span>
+                    </p>
+                </td>
+                <td class="c27" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.198494</span>
+                    </p>
+                </td>
+                <td class="c27" colspan="1" rowspan="1">
+                    <p class="c22">
+                        <span class="c24">91.615056</span>
+                    </p>
+                </td>
+            </tr>
+        </table>          
+        <h3>Gráficas de Ejecución En Windows Sin OMP</h3>
           <img src="ruta/" alt="Gráfica 1" />
           <img src="ruta/" alt="Gráfica 2" />
           <img src="ruta/" alt="Gráfica 3" />
@@ -46,6 +1988,1949 @@ const App = () => {
           <img src="ruta/" alt="Gráfica 6" />
           <img src="ruta/" alt="Gráfica 7" />
           <img src="ruta/" alt="Gráfica 8" />
+          <table class="c12">
+            <tr class="c6">
+                <td class="c3 c15" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c14" colspan="3" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">Con omp</span>
+                    </p>
+                </td>
+                <td class="c16" colspan="3" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">Sin omp</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">2 hilos</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">4 hilos</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">8 hilos</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">2 hilos</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">4 hilos</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">8 hilos</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138998032</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.162124634</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.169038773</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138998032</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.199794769</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138998032</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189781189</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.263929367</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138998032</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189781189</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.252962112</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189781189</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226020813</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137805939</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.29706955</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226020813</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.196933746</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226020813</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16283989</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.133037567</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16283989</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.212907791</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16283989</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.144958496</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.123023987</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.295162201</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.144958496</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.263929367</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.144958496</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137090683</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.190019608</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226974487</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137090683</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.334024429</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137090683</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.183105469</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.174999237</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.159025192</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16283989</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.159025192</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.162124634</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.159025192</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189065933</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189781189</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189065933</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.232934952</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189065933</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.132083893</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138998032</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.162124634</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.132083893</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.197172165</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.132083893</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226974487</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.218868256</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226974487</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.275850296</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226974487</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147819519</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16784668</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147104263</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147819519</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.248908997</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147819519</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">9.771108627</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226020813</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">9.771108627</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.224113464</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">9.771108627</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.29706955</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226020813</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137805939</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.29706955</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.196933746</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.29706955</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.299215317</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.188827515</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189065933</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.184059143</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.144958496</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.144958496</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.222921372</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189065933</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.183105469</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.244140625</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16784668</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.177145004</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16784668</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.221014023</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16784668</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.251054764</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137090683</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.251054764</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.191926956</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.251054764</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.144958496</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.14090538</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.14090538</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.144958496</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">39.00194168</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.144958496</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.169038773</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.251054764</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.162124634</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.169038773</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.320911408</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.169038773</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.291109085</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.291109085</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.242948532</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.291109085</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189065933</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138998032</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.694990158</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.180006027</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.226974487</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16784668</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.180006027</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.293970108</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.180006027</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.162124634</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137090683</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.180006027</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.162124634</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.216007233</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.162124634</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.263929367</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.123023987</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.263929367</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.272035599</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.263929367</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.188827515</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.169038773</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.188827515</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.340938568</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.188827515</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.183105469</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.179006027</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147819519</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.183105469</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.49996376</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.183105469</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.190019608</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.251054764</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.190019608</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.277996063</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.190019608</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.180006027</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138998032</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.320911408</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.177145004</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.123023987</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.177145004</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.168085098</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.177145004</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137805939</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.146865845</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138998032</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137805939</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.174045563</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137805939</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.123023987</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16283989</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.162124634</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.123023987</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.230073929</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.123023987</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.149011612</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.149011612</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">6.777048111</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.149011612</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138998032</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16283989</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.18119812</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.133037567</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.133037567</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.352859497</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.133037567</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.14090538</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.14090538</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.29706955</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.14090538</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.190973282</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.14090538</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.205993652</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.195980072</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.183105469</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.149011612</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.194072723</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.139951706</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.146865845</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.134944916</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.188827515</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.146865845</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.185966492</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.146865845</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147104263</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.149011612</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147104263</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.231027603</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147104263</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.185966492</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137805939</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147104263</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.185966492</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16617775</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.185966492</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.218868256</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.29706955</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.296831131</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.138044357</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.30207634</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.188827515</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.218868256</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.20980835</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.218868256</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.341176987</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.162124634</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.29706955</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.142097473</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.178098679</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.142097473</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.450134277</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.189781189</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.137090683</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.366926193</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.283002853</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.366926193</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.371217728</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.16784668</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.147104263</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.203132629</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.448942184</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.14090538</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.183105469</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.295162201</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.185966492</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.295162201</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c2">
+                        <span class="c0"></span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.151094733</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.1308918</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.146865845</span>
+                    </p>
+                </td>
+                <td class="c5" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.371986506</span>
+                    </p>
+                </td>
+                <td class="c4" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.17619133</span>
+                    </p>
+                </td>
+                <td class="c7" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.371986506</span>
+                    </p>
+                </td>
+            </tr>
+            <tr class="c6">
+                <td class="c3 c13" colspan="1" rowspan="1">
+                    <p class="c10">
+                        <span class="c0">Promedio</span>
+                    </p>
+                </td>
+                <td class="c11" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.38437718</span>
+                    </p>
+                </td>
+                <td class="c11" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.165885953</span>
+                    </p>
+                </td>
+                <td class="c11" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.169491768</span>
+                    </p>
+                </td>
+                <td class="c11" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.371986506</span>
+                    </p>
+                </td>
+                <td class="c11" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">1.152200699</span>
+                    </p>
+                </td>
+                <td class="c11" colspan="1" rowspan="1">
+                    <p class="c1">
+                        <span class="c0">0.371986506</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
           <h3>Gráficas de Ejecución En Fedora Sin OMP</h3>
           <img src="ruta/" alt="Gráfica 1" />
           <img src="ruta/" alt="Gráfica 2" />
