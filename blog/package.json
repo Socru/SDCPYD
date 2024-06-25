@@ -2,6 +2,7 @@
   "name": "my-blog",
   "version": "1.0.0",
   "description": "Blog para documentar el proyecto final de Sistemas de Cómputo Paralelo y Distribuido",
+  "homepage": "https://667b58dbd506d367bf37e89b--sdpyd-cmm-croa-scr.netlify.app/",
   "main": "src/index.js",
   "scripts": {
     "start": "react-scripts start",
