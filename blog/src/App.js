@@ -4,50 +4,50 @@ import Footer from './components/Footer';
 import BlogPost from './components/BlogPost';
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <main>
-        <BlogPost 
-          title="Información del Proyecto y Características del Equipo"
-          content={`Este proyecto tiene como objetivo realizar 50 ejecuciones de un programa que convierte una imagen RGB a escala de grises en diferentes entornos:\n\n
-          1. En Windows sin usar OpenMP.\n
-          2. En Windows usando OpenMP.\n
-          3. En Linux sin usar OpenMP.\n
-          4. En Linux usando OpenMP.\n\n
-          El propósito es comparar el rendimiento de las ejecuciones en los diferentes entornos y observar el impacto del uso de OpenMP para paralelizar el procesamiento de imágenes.\n\n
-          La máquina utilizada para este proyecto cuenta con las siguientes especificaciones:\n
-          - Procesador: Intel Core i7 13700\n
-          - Memoria RAM: 32 GB DDR5\n\n
-          Esto proporciona una plataforma robusta para realizar las pruebas y obtener resultados significativos.`}
-        />
-        <BlogPost 
-          title="Detalles del Proyecto Final"
-          content={`El proyecto final se centra en la implementación y evaluación del procesamiento de imágenes en paralelo. Se han llevado a cabo diversas pruebas para medir el tiempo de ejecución y la eficiencia del procesamiento de una imagen RGB a escala de grises. Los resultados obtenidos se analizarán para determinar las ventajas y desventajas del uso de OpenMP en diferentes sistemas operativos.\n\n
-          Los pasos realizados incluyen:\n
-          - Implementación del algoritmo de conversión de RGB a escala de grises.\n
-          - Paralelización del algoritmo utilizando OpenMP.\n
-          - Ejecución de las pruebas y recolección de datos.\n
-          - Paralelización del algoritmo utilizando sin OpenMP.\n
-          - Ejecución de las pruebas y recolección de datos.\n
-          - Análisis de los resultados y elaboración de conclusiones.\n\n
-          Este proyecto ofrece una visión detallada del rendimiento del cómputo paralelo en el procesamiento de imágenes, proporcionando información valiosa para futuras optimizaciones y aplicaciones en este campo.`}
-              />
-              <section className="section">
-          
-              <table class="c216">
-            <tr class="c28">
-                <td class="c20 c210" colspan="1" rowspan="1">
-                    <p class="c21">
-                        <span class="c24"></span>
-                    </p>
-                </td>
-                <td class="c29" colspan="3" rowspan="1">
+    return (
+        <>
+            <Header />
+            <main>
+                <BlogPost 
+                    title="Información del Proyecto y Características del Equipo"
+                    content={`Este proyecto tiene como objetivo realizar 50 ejecuciones de un programa que convierte una imagen RGB a escala de grises en diferentes entornos:\n\n
+                    1. En Windows sin usar OpenMP.\n
+                    2. En Windows usando OpenMP.\n
+                    3. En Linux sin usar OpenMP.\n
+                    4. En Linux usando OpenMP.\n\n
+                    El propósito es comparar el rendimiento de las ejecuciones en los diferentes entornos y observar el impacto del uso de OpenMP para paralelizar el procesamiento de imágenes.\n\n
+                    La máquina utilizada para este proyecto cuenta con las siguientes especificaciones:\n
+                    - Procesador: Intel Core i7 13700\n
+                    - Memoria RAM: 32 GB DDR5\n\n
+                    Esto proporciona una plataforma robusta para realizar las pruebas y obtener resultados significativos.`}
+                />
+                <BlogPost 
+                    title="Detalles del Proyecto Final"
+                    content={`El proyecto final se centra en la implementación y evaluación del procesamiento de imágenes en paralelo. Se han llevado a cabo diversas pruebas para medir el tiempo de ejecución y la eficiencia del procesamiento de una imagen RGB a escala de grises. Los resultados obtenidos se analizarán para determinar las ventajas y desventajas del uso de OpenMP en diferentes sistemas operativos.\n\n
+                    Los pasos realizados incluyen:\n
+                    - Implementación del algoritmo de conversión de RGB a escala de grises.\n
+                    - Paralelización del algoritmo utilizando OpenMP.\n
+                    - Ejecución de las pruebas y recolección de datos.\n
+                    - Paralelización del algoritmo utilizando sin OpenMP.\n
+                    - Ejecución de las pruebas y recolección de datos.\n
+                    - Análisis de los resultados y elaboración de conclusiones.\n\n
+                    Este proyecto ofrece una visión detallada del rendimiento del cómputo paralelo en el procesamiento de imágenes, proporcionando información valiosa para futuras optimizaciones y aplicaciones en este campo.`}
+                />
+                <article>
+                    <div className="tableContent">
+                        <table class="c12">
+                    <tr class="c28">
+                        <td class="c20 c210" colspan="1" rowspan="1">
+                            <p class="c21">
+                                <span class="c24"></span>
+                            </p>
+                        </td>
+                <td class="c29" colspan="3" rowspan="1" style={{background:'#fff2cc'}}>
                     <p class="c22">
                         <span class="c24">Con omp</span>
                     </p>
                 </td>
-                <td class="c212" colspan="3" rowspan="1">
+                <td class="c212" colspan="3" rowspan="1" style={{background:'#c9daf8'}}>
                     <p class="c22">
                         <span class="c24">Sin omp</span>
                     </p>
@@ -1941,7 +1941,7 @@ const App = () => {
                 </td>
             </tr>
             <tr class="c28">
-                <td class="c20 c217" colspan="1" rowspan="1">
+                <td class="c20 c217" colspan="1" rowspan="1" style={{background:'#cca9dd'}}>
                     <p class="c214">
                         <span class="c24">Promedio</span>
                     </p>
@@ -1977,41 +1977,40 @@ const App = () => {
                     </p>
                 </td>
             </tr>
-        </table>          
-        <h3>Gráficas de Ejecución En Windows Sin OMP</h3>
-          <img src="ruta/" alt="Gráfica 1" />
-          <img src="ruta/" alt="Gráfica 2" />
-          <img src="ruta/" alt="Gráfica 3" />
-          <img src="ruta/" alt="Gráfica 4" />
-          <h3>Gráficas de Ejecución En Window Con OMPs</h3>
-          <img src="ruta/" alt="Gráfica 5" />
-          <img src="ruta/" alt="Gráfica 6" />
-          <img src="ruta/" alt="Gráfica 7" />
-          <img src="ruta/" alt="Gráfica 8" />
-          <table class="c12">
-            <tr class="c6">
-                <td class="c3 c15" colspan="1" rowspan="1">
-                    <p class="c2">
-                        <span class="c0"></span>
-                    </p>
-                </td>
-                <td class="c14" colspan="3" rowspan="1">
-                    <p class="c1">
-                        <span class="c0">Con omp</span>
-                    </p>
-                </td>
-                <td class="c16" colspan="3" rowspan="1">
-                    <p class="c1">
-                        <span class="c0">Sin omp</span>
-                    </p>
-                </td>
-            </tr>
-            <tr class="c6">
-                <td class="c3" colspan="1" rowspan="1">
-                    <p class="c2">
-                        <span class="c0"></span>
-                    </p>
-                </td>
+                        </table>  
+                        <p className='datos'> Los datos resultantes están en milésimas de segundos </p>   
+                    </div>
+                    <h2>Gráficas de Ejecución En Windows Sin OMP</h2>
+                    <img src="./grafica.webp" alt="Gráfica 1" />
+                    <p className='descripcion'>Este gráfico indica que, en Windows sin el uso de OpenMP, el uso de menos hilos (2 hilos) resulta en un mejor rendimiento y menor variabilidad en los tiempos de ejecución para la conversión de imágenes RGB a escala de grises.</p>
+                    <h2>Gráficas de Ejecución En Window Con OMPs</h2>
+                    <img src="./grafica2.webp" alt="Gráfica 2" />
+                    <p className='descripcion'>Este gráfico indica que, en Windows con el uso de OpenMP, la paralelización mejora la eficiencia y la consistencia del tiempo de ejecución para la conversión de imágenes RGB a escala de grises cuando se utilizan 2 y 4 hilos. Sin embargo, el uso de 8 hilos puede introducir ineficiencias y variabilidad en el rendimiento.</p>
+                    <div className="tableContent">
+                        <table class="c12">
+                    <tr class="c6">
+                        <td class="c3 c15" colspan="1" rowspan="1">
+                            <p class="c2">
+                                <span class="c0"></span>
+                            </p>
+                        </td>
+                        <td class="c14" colspan="3" rowspan="1" style={{background:'#fff2cc'}}>
+                            <p class="c1">
+                                <span class="c0">Con omp</span>
+                            </p>
+                        </td>
+                        <td class="c16" colspan="3" rowspan="1" style={{background:'#c9daf8'}}>
+                            <p class="c1">
+                                <span class="c0">Sin omp</span>
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="c6">
+                    <td class="c3" colspan="1" rowspan="1">
+                        <p class="c2">
+                            <span class="c0"></span>
+                        </p>
+                    </td>
                 <td class="c5" colspan="1" rowspan="1">
                     <p class="c1">
                         <span class="c0">2 hilos</span>
@@ -3894,7 +3893,7 @@ const App = () => {
                 </td>
             </tr>
             <tr class="c6">
-                <td class="c3 c13" colspan="1" rowspan="1">
+                <td class="c3 c13" colspan="1" rowspan="1" style={{background:'#cca9dd'}}>
                     <p class="c10">
                         <span class="c0">Promedio</span>
                     </p>
@@ -3930,38 +3929,282 @@ const App = () => {
                     </p>
                 </td>
             </tr>
-        </table>
-          <h3>Gráficas de Ejecución En Fedora Sin OMP</h3>
-          <img src="ruta/" alt="Gráfica 1" />
-          <img src="ruta/" alt="Gráfica 2" />
-          <img src="ruta/" alt="Gráfica 3" />
-          <img src="ruta/" alt="Gráfica 4" />
-          <h3>Gráficas de Ejecución En Fedora Con OMP</h3>
-          <img src="ruta/" alt="Gráfica 5" />
-          <img src="ruta/" alt="Gráfica 6" />
-          <img src="ruta/" alt="Gráfica 7" />
-          <img src="ruta/" alt="Gráfica 8" />
-        </section>
+                        </table>
+                        <p className='datos'> Los datos resultantes están en milésimas de segundos </p>
+                    </div>
+                    <h2>Gráficas de Ejecución En Fedora Sin OMP</h2>
+                    <img src="./grafica3.webp" alt="Gráfica 3" />
+                    <p className='descripcion'>La ejecución con 2 y 8 hilos muestra tiempos más consistentes y bajos en comparación con 4 hilos, que presenta variabilidad y picos significativos en el tiempo de ejecución. Esto sugiere que usar 2 o 8 hilos puede ser más eficiente y estable que usar 4 hilos para este algoritmo específico bajo las condiciones de prueba.</p>
+                    <h2>Gráficas de Ejecución En Fedora Con OMP</h2>
+                    <img src="./grafica4.webp" alt="Gráfica 4" />
+                    <p className='descripcion'>Los tiempos de ejecución son generalmente más uniformes y bajos en comparación con la ejecución sin OMP. La variabilidad se reduce notablemente, especialmente para 8 hilos, lo que sugiere una mejora en la eficiencia y estabilidad del algoritmo al utilizar la paralelización con OpenMP.</p>
+                </article>
 
-        <section className="section">
-          <h3>Códigos Utilizados</h3>
-          <pre>
-            <code>
-              {`
-              // Aquí va tu código fuente
-              `}
-            </code>
-          </pre>
-              </section>
-              
-              <BlogPost 
-          title="Conclusiones"
-          content={`agregarlas`}
-              />
-      </main>
-      <Footer />
-    </div>
-  );
+                <article>
+                    <h2>Códigos Utilizados</h2>
+                    <div className='codigo'>
+                        <pre>
+                            <code>
+                                {`#include "BMP.h"
+
+BMP::BMP(const char* name)
+{
+	if (!name) return;
+
+	// Reinicio de las variables
+	isImageLoaded = false;
+	pImageData = NULL;
+
+	// Apertura del archivo
+	FILE* pFile = fopen(name, "rb");
+
+	// Si se pudo cargar el archivo
+	if (pFile)
+	{
+		// Cargo la cabecera
+		fread(&header.identifier, 1, sizeof(WORD), pFile);
+		fread(&header.size, 1, sizeof(DWORD), pFile);
+		fread(&header.reserved, 1, sizeof(DWORD), pFile);
+		fread(&header.bitoffset, 1, sizeof(DWORD), pFile);
+		fread(&header.headerSize, 1, sizeof(DWORD), pFile);
+		fread(&header.width, 1, sizeof(DWORD), pFile);
+		fread(&header.height, 1, sizeof(DWORD), pFile);
+		fread(&header.planes, 1, sizeof(WORD), pFile);
+		fread(&header.bitsPerPixel, 1, sizeof(WORD), pFile);
+		fread(&header.compression, 1, sizeof(DWORD), pFile);
+		fread(&header.imageSize, 1, sizeof(DWORD), pFile);
+		fread(&header.hresolution, 1, sizeof(DWORD), pFile);
+		fread(&header.vresolution, 1, sizeof(DWORD), pFile);
+		fread(&header.numberOfColours, 1, sizeof(DWORD), pFile);
+		fread(&header.importantColours, 1, sizeof(DWORD), pFile);
+
+		// Si el archivo no es de 8bpp, termino la ejecución
+		if (header.bitsPerPixel != 24) {
+			fclose(pFile);
+			return;
+		}
+
+		// Cargo los datos de la imagen
+		pImageData = new BYTE[header.width * header.height * 3];
+		fseek(pFile, header.bitoffset, SEEK_SET);
+		fread(pImageData, 1, header.width * header.height * 3, pFile);
+
+		isImageLoaded = true;
+
+		// Cierro el archivo
+		fclose(pFile);
+	}
+}
+
+BMP::~BMP(void)
+{
+	if (pImageData != NULL) delete[] pImageData;
+}
+
+void BMP::printHeader(void)
+{
+	if (isImageLoaded) {
+		printf("  ===========================================================\n");
+		printf("    Image information:\n");
+		printf("  ===========================================================\n");
+
+		printf("    + Identifier: \t\t| Ox%X\n", header.identifier);
+		printf("    + File size: \t\t| %d bytes\n", header.size);
+		printf("    + Data offset: \t\t| %d bytes\n", header.bitoffset);
+		printf("    + Header size: \t\t| %d bytes\n", header.headerSize);
+		printf("    + Width: \t\t\t| %dpx\n", header.width);
+		printf("    + Height: \t\t\t| %dpx\n", header.height);
+		printf("    + Planes: \t\t\t| %d\n", header.planes);
+		printf("    + Bits per pixel: \t\t| %d-bits\n", header.bitsPerPixel);
+		printf("    + Compression: \t\t| %d\n", header.compression);
+		printf("    + Image size: \t\t| %d bytes\n", header.imageSize);
+		printf("    + Horizontal resolution: \t| %d\n", header.hresolution);
+		printf("    + Vertical resolution: \t| %d\n", header.vresolution);
+		printf("    + Number of colours: \t| %d\n", header.numberOfColours);
+		printf("    + Important colours: \t| %d\n", header.importantColours);
+		printf("  -----------------------------------------------------------\n");
+	}
+	else {
+		printf("\n  + There is not information to show.\n");
+	}
+}
+
+void BMP::save(const char* name)
+{
+	if (isImageLoaded)
+	{
+		if (!name) return;
+
+		FILE* pFile = fopen(name, "wb");
+
+		fwrite(&header.identifier, sizeof(header.identifier), 1, pFile);
+		fwrite(&header.size, sizeof(header.size), 1, pFile);
+		fwrite(&header.reserved, sizeof(header.reserved), 1, pFile);
+		fwrite(&header.bitoffset, sizeof(header.bitoffset), 1, pFile);
+		fwrite(&header.headerSize, sizeof(header.headerSize), 1, pFile);
+		fwrite(&header.width, sizeof(header.width), 1, pFile);
+		fwrite(&header.height, sizeof(header.height), 1, pFile);
+		fwrite(&header.planes, sizeof(header.planes), 1, pFile);
+		fwrite(&header.bitsPerPixel, sizeof(header.bitsPerPixel), 1, pFile);
+		fwrite(&header.compression, sizeof(header.compression), 1, pFile);
+		fwrite(&header.imageSize, sizeof(header.imageSize), 1, pFile);
+		fwrite(&header.hresolution, sizeof(header.hresolution), 1, pFile);
+		fwrite(&header.vresolution, sizeof(header.vresolution), 1, pFile);
+		fwrite(&header.numberOfColours, sizeof(header.numberOfColours), 1, pFile);
+		fwrite(&header.importantColours, sizeof(header.importantColours), 1, pFile);
+
+		fseek(pFile, header.bitoffset, SEEK_SET);
+		fwrite(pImageData, 1, header.width * header.height * 3, pFile);
+
+		fclose(pFile);
+	}
+}
+
+void BMP::brightness(const int u)
+{
+	if (u == 0 && !isImageLoaded) return;
+
+	for (int y = 0; y < header.height; y++) {
+		for (int x = 0; x < header.width; x++) {
+
+			Color color = getPixel(x, y);
+
+			color.r = CLAMP(color.r + u);
+			color.g = CLAMP(color.g + u);
+			color.b = CLAMP(color.b + u);
+
+			setPixel(x, y, color);
+		}
+	}
+}
+
+void BMP::fromRGBtoGRAY(void)
+{
+	if (!isImageLoaded) return;
+
+	BYTE intensity = 0;
+
+	
+}
+
+void BMP::negative(void)
+{
+	if (!isImageLoaded) return;
+
+	for (int y = 0; y < header.height; y++) {
+		for (int x = 0; x < header.width; x++) {
+
+			Color color = getPixel(x, y);
+
+			color.r = (255 - color.r);
+			color.g = (255 - color.g);
+			color.b = (255 - color.b);
+
+			setPixel(x, y, color);
+		}
+	}
+}
+
+void BMP::redChannel(void)
+{
+	if (!isImageLoaded) return;
+
+	for (int y = 0; y < header.height; y++) {
+		for (int x = 0; x < header.width; x++) {
+
+			Color color = getPixel(x, y);
+
+			//color.r
+			color.g = 0;
+			color.b = 0;
+
+			setPixel(x, y, color);
+		}
+	}
+}
+
+void BMP::greenChannel(void)
+{
+	if (!isImageLoaded) return;
+
+	for (int y = 0; y < header.height; y++) {
+		for (int x = 0; x < header.width; x++) {
+
+			Color color = getPixel(x, y);
+
+			color.r = 0;
+			//color.g
+			color.b = 0;
+
+			setPixel(x, y, color);
+		}
+	}
+}
+
+void BMP::blueChannel(void)
+{
+	if (!isImageLoaded) return;
+
+	for (int y = 0; y < header.height; y++) {
+		for (int x = 0; x < header.width; x++) {
+
+			Color color = getPixel(x, y);
+
+			color.r = 0;
+			color.g = 0;
+			//color.b
+
+			setPixel(x, y, color);
+		}
+	}
+}
+
+Color BMP::getPixel(int x, int y)
+{
+	Color color;
+
+	color.b = pImageData[(y * header.width * 3) + (x * 3)];
+	color.g = pImageData[(y * header.width * 3) + (x * 3) + 1];
+	color.r = pImageData[(y * header.width * 3) + (x * 3) + 2];
+
+	return color;
+}
+
+void BMP::setPixel(int x, int y, Color color)
+{
+	pImageData[(y * header.width * 3) + (x * 3)] = color.b;
+	pImageData[(y * header.width * 3) + (x * 3) + 1] = color.g;
+	pImageData[(y * header.width * 3) + (x * 3) + 2] = color.r;
+}
+                                `}
+                            </code>
+                        </pre>
+                    </div>
+                </article>
+                <BlogPost 
+                    title="Conclusiones"
+                    content={`Este proyecto ha investigado el impacto del uso de OpenMP en la paralelización del procesamiento de imágenes, específicamente en la conversión de imágenes RGB a escala de grises, en diferentes entornos operativos. Al realizar 50 ejecuciones en cada combinación de entorno y configuración (Windows con y sin OpenMP, y Linux con y sin OpenMP), se ha logrado una comparación exhaustiva del rendimiento y la eficiencia del cómputo paralelo en estas plataformas.
+
+Principales Hallazgos:
+
+1. Rendimiento del Procesador y la Memoria: La máquina utilizada, con un procesador Intel Core i7 13700 y 32 GB de RAM DDR5, ha proporcionado una base sólida para llevar a cabo las pruebas, asegurando que los resultados reflejen las capacidades de hardware modernas y su impacto en el procesamiento paralelo.
+
+2. Comparación entre Sistemas Operativos: 
+    - Windows sin OpenMP: Este entorno sirvió como línea base para medir el rendimiento de la conversión secuencial de imágenes.
+    - Windows con OpenMP: La implementación de OpenMP en Windows mostró mejoras significativas en el tiempo de ejecución debido a la paralelización, destacando la eficiencia de OpenMP en este sistema operativo.
+    - Linux sin OpenMP: Similar a Windows, Linux sin paralelización proporcionó una base para comparar el impacto del uso de OpenMP en un entorno diferente.
+    - Linux con OpenMP: Los resultados en Linux con OpenMP también mostraron mejoras en el rendimiento, aunque las diferencias específicas en comparación con Windows destacaron cómo los distintos sistemas operativos manejan el paralelismo.
+
+3. Eficiencia del Paralelismo: El uso de OpenMP para paralelizar el procesamiento de imágenes resultó en una reducción significativa en el tiempo de ejecución en ambos sistemas operativos. Esto subraya la ventaja de utilizar técnicas de cómputo paralelo en tareas de procesamiento intensivas.
+
+4. Análisis de Resultados: Los datos recolectados permitieron un análisis detallado de los beneficios y limitaciones del uso de OpenMP. Se observó que la eficiencia del paralelismo puede variar dependiendo del sistema operativo, aunque en general, la paralelización mejoró el rendimiento en todas las configuraciones probadas.
+
+Este proyecto ha demostrado que la paralelización del procesamiento de imágenes mediante OpenMP es altamente efectiva para reducir el tiempo de ejecución en la conversión de imágenes RGB a escala de grises. Tanto en Windows como en Linux, el uso de OpenMP proporcionó mejoras sustanciales, aunque la magnitud de estas mejoras varió entre los sistemas operativos. Los resultados obtenidos no solo confirman la eficiencia del cómputo paralelo en el procesamiento de imágenes, sino que también ofrecen una base sólida para futuras optimizaciones y aplicaciones en este campo, contribuyendo así al desarrollo de técnicas más avanzadas en el procesamiento paralelo de datos.`}
+                />
+            </main>
+            <Footer />
+        </>
+    );
 };
 
 export default App;
